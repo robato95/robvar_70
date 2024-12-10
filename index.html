@@ -5,13 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Robert Vargas Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Centering specific elements like h3 */
+        h3 {
+            text-align: center; /* Centers the h3 elements */
+        }
+
+        /* Ensure other elements within sections remain left-aligned */
+        section {
+            text-align: left;
+            margin: 20px;
+        }
+
+        .text-box, .project {
+            width: 80%; /* Adjust the width */
+            margin: 0 auto; /* Center content within the container */
+        }
+
+        h2, p {
+            text-align: left; /* Ensure h2 and p are left-aligned */
+        }
+    </style>
 </head>
 <body>
     <header>
         <h1>Robert Vargas' Portfolio</h1>
         
     </header>
-    <hr> <!-- Line break between sections -->
      <!-- Introduction -->
     <section id="introduction">
         <h2>Introduction</h2>
@@ -21,7 +41,7 @@
     </section>
     <section id="projects">
         <hr> <!-- Line break between sections -->
-        <h2 style="text-align: center;">Career Projects</h2>
+        <h2 style="text-align: left;">Career Projects</h2>
         <div class="project">
             <p><strong>Ladder Plans: </strong>
                 Built with the goal of anticipating retailer needs or potential risk using sales projections and considering shipping timelines.
@@ -38,9 +58,8 @@
 </body>
     <hr> <!-- Line break between sections -->
     <section id="projects">
-        <h2 style="text-align: center;">Graduate Studies</h2>
+        <h2 style="text-align: left;">Graduate Studies</h2>
         <div class="project">
-            <hr> <!-- Line break between sections -->
             <h3>Using R for Analytics</h3>
             <p><strong>Prisoner's Dilemma Study and Simulation</strong>: The volunteer's dilemma is a game theory scenario that models a situation where players must decide whether to make a costly sacrifice for the benefit of the group or to wait and benefit from someone else's sacrifice.</p>
             <a href="link-to-project-2" target="_blank">View Project</a>
